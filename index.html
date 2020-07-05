@@ -4,29 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Веб студия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--шапка сайта-->
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html" lang="en"><span>Web</span> Studio</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="logo link" href="index.html" lang="en"
+          ><span class="logo-web">Web</span> Studio</a
+        >
+        <ul class="navigation-list list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="index.html">Студия</a>
           </li>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="/portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="header-address-list list">
+        <li class="header-address-item">
+          <address class="header-address">
+            <a class="header-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </address>
         </li>
-        <li>
-          <address><a href="tel:+380961111111">+38 096 111 11 11</a></address>
+        <li class="header-address-item">
+          <address class="header-address">
+            <a class="header-tel link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </address>
         </li>
       </ul>
     </header>
@@ -38,7 +58,7 @@
       </section>
       <section>
         <h2 hidden>О нас</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -246,3 +266,11 @@
     </footer>
   </body>
 </html>
+
+<!--
+  Raleway bold
+  Roboto medium
+  Roboto black
+  Roboto bold
+  Roboto regular
+-->
