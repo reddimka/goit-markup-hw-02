@@ -1,5 +1,10 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --text-taitle-dark: #212121;
+  --tex-taitle-light: #ffffff;
+}
 body {
-  background-color: #ffffff;
+  background-color: var(--tex-taitle-light);
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-size: 14;
@@ -32,16 +37,22 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.link:hover,
+.link:focus,
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-tel:hover,
 .header-tel:focus,
 .header-mail:hover,
-.header-mail:focus {
+.header-mail:focus,
+.social-link:hover,
+.social-link:focus .customer-link:hover,
+.customer-link:focus {
   color: #2196f3;
 }
 .header-tel,
 .header-mail {
+  font-style: normal;
   color: #757575;
 }
 /*HERO SECTION*/
@@ -91,5 +102,95 @@ body {
 
   color: #212121;
 }
-/* о команде*
+.description-made {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
+  color: #ffffff;
+}
+/* о команде*/
+.team,
+.position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.position {
+  font-weight: normal;
+  color: #757575;
+}
+/*подвал*/
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address,
+.footer-mail,
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  color: #757575;
+}
+.footer-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*портфолио*/
+.button-filter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.title-portfolio {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.subtatle-portfolio {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.hover-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
